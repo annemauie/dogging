@@ -6,10 +6,18 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+<nav>
+    <a href="#" class="back-button" onclick="goBack()">Back</a>
+</nav>
 <body>
     <div class="container" id="container">
         
     </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
     <script type="module" src="app.js"></script>
 </body>
 </html>
